@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+div.container{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;    
+    box-shadow: 10% gray;
+}
+div img{
+    border-radius: 5px;
+    width: 400px;
+}
+div.pointer{
+    margin-top: 20px;
+}
+span{
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 20px;
+    justify-self: center;
+}
+select{
+    width: 50px;
+    margin-top: 30px;
+    height: 25px;
+}
+label{
+    margin-left: 20px;
+    font-size: 20px;
+}
+section.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-items: center;
+}
+button{
+    width: 33.3%;
+    height: 50px;
+    border: none;
+}
+#buttonPlayer1{
+    background-color:lightskyblue;
+}
+#buttonPlayer2{
+    background-color: lightgreen;
+}
+#buttonReset{
+    background-color: lightcoral;
+}
